@@ -1,0 +1,48 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="theme-toggle">
+    <button id="themeBtn">🌙</button>
+</div>
+
+<div class="navbar">
+    <div class="nav-left"><h3>To-Do App</h3></div>
+    <div class="nav-right">
+        <span id="currentUserName"></span>
+        <button id="logoutBtn">Logout</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="todo-app">
+        <h2>Tasks <img src="images/list.png" alt=""></h2>
+        <div class="date-time" id="dateTime"></div>
+
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add your task">
+            <input type="date" id="task-date">
+            <select id="priority">
+                <option value="High">High</option>
+                <option value="Medium" selected>Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <button onclick="addTask()">Add</button>
+        </div>
+
+        <ul id="list-container"></ul>
+
+        <h3>Calendar</h3>
+        <div class="calendar-nav" id="calendar-nav"></div>
+        <div class="calendar-grid" id="calendar-grid"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

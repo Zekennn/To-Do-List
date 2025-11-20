@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="portal-container">
+    <div class="portal-card">
+        <h2>Welcome to To-Do App</h2>
+
+        <div class="form-wrapper">
+            <div class="form-container" id="loginForm">
+                <h3>Login</h3>
+                <input type="text" id="loginUsername" placeholder="Username">
+                <input type="password" id="loginPassword" placeholder="Password">
+                <button id="loginBtn">Login</button>
+                <p id="loginMsg" class="msg"></p>
+            </div>
+
+            <div class="form-container" id="signupForm">
+                <h3>Sign Up</h3>
+                <input type="text" id="signupUsername" placeholder="Username">
+                <input type="password" id="signupPassword" placeholder="Password">
+                <button id="signupBtn">Sign Up</button>
+                <p id="signupMsg" class="msg"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="auth.js"></script>
+</body>
+</html>
