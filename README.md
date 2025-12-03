@@ -1,4 +1,4 @@
-**📌 To-Do List Web App
+📌 To-Do List Web App
 
 A modern task-management web application featuring user authentication, priority-based tasks, date tracking, dark mode, and persistent storage using LocalStorage. Designed for personal productivity with clean UI and smooth interactions
 
@@ -16,4 +16,4 @@ A modern task-management web application featuring user authentication, priority
 
 ✔ User-Specific Saved Data in Local Storage
 
-✔ Fully Responsive UI**
+✔ Fully Responsive UI
