@@ -16,4 +16,4 @@ A modern task-management web application featuring user authentication, priority
 
 ✔ User-Specific Saved Data in Local Storage
 
-✔ Fully Responsive UI
+✔ Fully Responsive 
